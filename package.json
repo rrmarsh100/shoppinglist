@@ -1,0 +1,21 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "Mern Shopping List",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Robert Marsh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
