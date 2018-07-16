@@ -23,7 +23,7 @@ mongoose
 app.use("/api/items", items);
 
 // Serve Static assets if in prod
-if (process.env.NODE_EVN === "production") {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 
   app.get("*", (req, res) => {
